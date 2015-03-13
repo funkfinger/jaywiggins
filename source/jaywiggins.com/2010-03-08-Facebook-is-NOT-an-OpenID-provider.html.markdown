@@ -1,5 +1,5 @@
 ---
-title: Facebook is NOT an OpenID provider?
+title: Facebook is NOT an OpenID provider
 date: '2010-03-08'
 tags:
 - code

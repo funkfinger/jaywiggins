@@ -1,3 +1,7 @@
+require 'compass-h5bp'
+require 'bootstrap-sass'
+Sass::Plugin.add_template_location('stylesheets/templates')
+
 ###
 # Blog settings
 ###
@@ -101,3 +105,8 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+configure :development do
+  activate :livereload
+end
+

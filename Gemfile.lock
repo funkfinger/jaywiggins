@@ -8,6 +8,12 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.7)
+    autoprefixer-rails (5.1.7)
+      execjs
+      json
+    bootstrap-sass (3.3.3)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.2.19)
     builder (3.2.2)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -26,9 +32,15 @@ GEM
     compass-core (1.0.3)
       multi_json (~> 1.0)
       sass (>= 3.3.0, < 3.5)
+    compass-h5bp (1.0.0)
+      compass (~> 1.0, >= 1.0.3)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
+    eventmachine (1.0.7)
     execjs (2.4.0)
     ffi (1.9.6)
     haml (4.0.6)
@@ -37,6 +49,7 @@ GEM
     hitimes (1.2.2)
     hooks (0.4.0)
       uber (~> 0.0.4)
+    http_parser.rb (0.6.0)
     i18n (0.7.0)
     json (1.8.2)
     kramdown (1.6.0)
@@ -71,6 +84,10 @@ GEM
       rack-test (~> 0.6.2)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1, < 2.0)
+    middleman-livereload (3.3.4)
+      em-websocket (~> 0.5.1)
+      middleman-core (~> 3.2)
+      rack-livereload (~> 0.3.15)
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -85,6 +102,8 @@ GEM
     padrino-support (0.12.5)
       activesupport (>= 3.1)
     rack (1.6.0)
+    rack-livereload (0.3.15)
+      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rb-fsevent (0.9.4)
@@ -117,6 +136,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   builder (~> 3.0)
+  compass-h5bp
   middleman (~> 3.3.10)
   middleman-blog (~> 3.5.3)
+  middleman-livereload (~> 3.3.0)

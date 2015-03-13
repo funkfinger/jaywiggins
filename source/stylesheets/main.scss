@@ -1,0 +1,40 @@
+@import "styles";
+@import "h5bp";
+
+
+@import 'http://fonts.googleapis.com/css?family=Open+Sans';
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+$font-body: 'Open Sans', sans-serif;
+$font-body-color: #333;
+
+$font-head: 'Lobster', sans-serif;
+$font-head-color: #336;
+
+body {
+/*  font-family: $font-body;*/
+  color: $font-body-color;
+  font-size: .9em;
+}
+
+h1, h2, h3 {
+/*  font-family: $font-head;*/
+  color: $font-head-color;
+}
+
+a {
+  text-decoration: none;
+  color: #633;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.article h2 {
+  font-size: 2em;
+}
+
+.article h2 span {
+  font-size: .6em;
+}
