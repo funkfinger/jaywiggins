@@ -1,19 +1,58 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+        <meta name="description" content="<%= @page_description %>">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+
+        <%= stylesheet_link_tag 'main' %>
+        <%= javascript_include_tag 'all' %>
+
+
+        <!-- <link rel="stylesheet" href="/css/normalize.css">
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script> -->
+        
+        <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+
+      <script src="//use.typekit.net/nbe1bup.js"></script>
+      <script>try{Typekit.load();}catch(e){}</script>
+
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+        
+        <header class="app-bar promote-layer">
+          <div class="app-bar-container">
+            <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
+            <section class="app-bar-actions">
+            <!-- Put App Bar Buttons Here -->
+            <!-- e.g <button><i class="icon icon-star"></i></button> -->
+            </section>
+          </div>
+        </header>
+        
+        
+        
+        
+				<%= yield %>
+
+    </body>
     
-    <%= stylesheet_link_tag 'main' %>
-    
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-  </head>
-  <body>
-    
-    <div id="main" role="main">
-      <%= yield %>
-    </div>
     
     <aside>
       <h2>Recent Articles</h2>
@@ -37,5 +76,21 @@
         <% end %>
       </ol>
     </aside>
-  </body>
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        
+    
+    
 </html>
+

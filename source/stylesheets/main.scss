@@ -1,25 +1,27 @@
 @import "styles";
 @import "h5bp";
 
+/*@import 'http://fonts.googleapis.com/css?family=Open+Sans';*/
+/*@import url(http://fonts.googleapis.com/css?family=Lobster);*/
 
-@import 'http://fonts.googleapis.com/css?family=Open+Sans';
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-
-$font-body: 'Open Sans', sans-serif;
+$font-body: 'ff-meta-web-pro', sans-serif;
 $font-body-color: #333;
 
-$font-head: 'Lobster', sans-serif;
+$font-head: 'quatro-slab', serif;
 $font-head-color: #336;
 
 body {
-/*  font-family: $font-body;*/
+  font-family: $font-body;
   color: $font-body-color;
-  font-size: .9em;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 h1, h2, h3 {
-/*  font-family: $font-head;*/
+  font-family: $font-head;
   color: $font-head-color;
+  font-style: italic;
+  font-weight: 700;
 }
 
 a {
