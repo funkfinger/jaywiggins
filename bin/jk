@@ -110,8 +110,11 @@ echo "---" >> $filename
 echo >> $filename
  
 # open in chosen editor
-if [ "$editor" == "vim" ]; then
-  vim + $filename
-else
-  $editor $filename
-fi
+# if [ "$editor" == "vim" ]; then
+#   vim + $filename
+# else
+#   $editor $filename
+# fi
+
+mate $filename
+
