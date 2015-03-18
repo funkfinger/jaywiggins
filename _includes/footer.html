@@ -1,7 +1,8 @@
         <footer class="footer">
           <small>
           
-            <span class='copyleft'>&copy; </span>Copyleft <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. No wrongs reserved.
+            <span class='copyleft'>&copy; Copyleft <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. No wrongs reserved.</span>
+            <span class='pull-right'>Generated using <a href='http://jekyllrb.com/'>Jekyll</a> (I wish I knew how to quit you, Ruby)</span>
           </small>
         </footer>
       </div>
@@ -20,7 +21,18 @@
 
     </script>
   
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'jaywiggins';
     
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
     
   </body>
 </html>
