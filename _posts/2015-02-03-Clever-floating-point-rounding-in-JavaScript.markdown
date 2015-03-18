@@ -4,6 +4,10 @@ date: '2015-02-03'
 tags: []
 ---
 
+This is clever
+
+<!--more-->
+
     +Math.PI.toFixed(0); // 3
     +Math.PI.toFixed(1); // 3.1
     +Math.PI.toFixed(2); // 3.14

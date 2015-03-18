@@ -51,7 +51,8 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "poole"
 ;
 
 .copyleft {
@@ -73,9 +74,14 @@ header.masthead {
   padding-bottom: 0;
 }
 
-header.masthead h4 {
-  font-size: .8em;
+.masthead h3 {
+  font-size: 2rem;
   color: #CCC;
+}
+
+.masthead h4 {
+  font-size: 1rem;
+  color: #CCC;  
 }
 
 article.post {
@@ -94,4 +100,10 @@ footer.footer {
   margin-top: 2rem;
 }
 
+body {
+  background-color: #EFEFEF;
+}
 
+.post-date {
+  font-size: .8rem;
+}
