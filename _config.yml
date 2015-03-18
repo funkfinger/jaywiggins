@@ -1,0 +1,39 @@
+# Site settings
+# email: jay@irk.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: funkfinger
+github_username:  funkfinger
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+
+
+# Permalinks
+permalink: 'pretty'
+# relative_permalinks: true
+
+# Setup
+title:            'Jay, trying to remember...'
+tagline:          'code, music, food, fun and whatnot... (mostly code)'
+url:              http://jaywiggins.com
+paginate:         10
+baseurl:          /
+author:
+  name:           Jay Wiggins
+  url:            https://github.com/funkfinger
+
+sass:
+  sass_dir: _sass
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/funkfinger/jaywiggins
