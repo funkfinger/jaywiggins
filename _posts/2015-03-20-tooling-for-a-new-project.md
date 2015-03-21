@@ -14,5 +14,5 @@ Here's the front-end development stack that I'm leaning towards for a new build 
   * [webpack](http://webpack.github.io/) - bundler
   * [Jest](http://facebook.github.io/jest/) - testing framework
   
-Today, it's looking like Facebook is winning my attention on open source projects - not sure why this is. I'm still interested in Google's [Angular](https://angularjs.org/), but am feeling like jumping into that ecosystem might feel a little locked in. 
+Today, it's looking like Facebook is winning my attention on open source projects - not sure why this is. I'm still interested in Google's [Angular](https://angularjs.org/), but am feeling like jumping into that ecosystem might feel a little locked in- React may feel like the same thing, but I guess I'll see...
 
