@@ -3,7 +3,7 @@ layout: post
 title: "Starting somthing on Raspberry Pi boot..."
 comments: true
 date: 2015-06-14 09:49:14
-categories: raspberry pi crontab
+categories: raspberry pi
 ---
 This seems to be the easiest way to start something up on bootup of Rasperian...
 
