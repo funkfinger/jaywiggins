@@ -23,7 +23,7 @@ Some of what was difficult before doing AVR on OSX looks to be simplified by oth
   
 Be patient, there's a lot going in that second command.
 
-I'm using the AVR Dragon development platform for programming the ATtiny - It's a little complicated, and there may be easier / more straight forward ways of doing this now, but this is what I have and it did work at one time. I purchased 2 *DracoDapter*s quite some time ago from [AllgairShops.com](http://allgairshops.com) - these made the [config](http://blog.allgaiershops.com/2011/01/23/avr-dragon-adapters/) of the Dragon a lot easier but I'm not very confident you can still buy them. I also soldered on a ZIF socket.
+I'm using the AVR Dragon development platform for programming the ATtiny - It's a little complicated, and there may be easier / more straight forward ways of doing this now, but this is what I have and it did work at one time. I purchased 2 *DracoDapter*s quite some time ago from [www.allgaiershops.com](http://www.allgaiershops.com/) - these made the [config](http://blog.allgaiershops.com/2011/01/23/avr-dragon-adapters/) of the Dragon a lot easier but I'm not very confident you can still buy them. I also soldered on a ZIF socket.
 
 I'm really not sure what follows was needed or not, but in an attempt to find out why `make install` didn't work because of error `avrdude: usbdev_open(): did not find any USB device "usb"`, I ran into this:
 [OSX USB solution](http://www.avrfreaks.net/comment/1421981#comment-1421981)
