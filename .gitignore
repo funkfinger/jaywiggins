@@ -1,3 +1,5 @@
 .env
 _site
 .sass-cache
+.flickrExclusion
+npm-debug.log
