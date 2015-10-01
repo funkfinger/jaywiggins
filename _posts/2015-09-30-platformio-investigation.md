@@ -8,7 +8,7 @@ categories: [platformio,arduino,avr,es8266]
 
 While looking around for a good [library to parse JSON](https://github.com/bblanchon/ArduinoJson) on an Arduino, I bumped into [PlatformIO](http://platformio.org/). This seems to address a problem I've been struggling with – library / board management. 
 
-I had to update my OS X Homebrew install of Python to get this working (I really needed to do that anyway) and I needed to install this using `sudo` - `sudo pip install -U platformio`. I also had to `gpip install -U pip setuptools` - which is using a 'global' version of the Python pip command. Modifications to my `.bashrc` file were required...
+I had to update my OS X Homebrew install of Python to get this working (I really needed to do that anyway) and I needed to install this using `sudo` - `sudo pip install -U platformio`. Because of `virtualenv`, I also had to `gpip install -U pip setuptools` - which is using a 'global' version of the Python pip command. Modifications to my `.bashrc` file were required...
 
 With all that, I was able to build and deploy the 'blink' code on a Arduino Uno (actually an Adafruit Metro) using the command:
 
