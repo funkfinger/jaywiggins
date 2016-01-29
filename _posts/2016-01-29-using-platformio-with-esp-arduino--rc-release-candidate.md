@@ -16,3 +16,7 @@ I think I can get back to norm by doing a- though the `ldscripts` folder will st
     platformio platforms uninstall espressif
     platformio platforms install espressif
     
+Wondering if I could use the following to set these as seen in the [repo](https://github.com/platformio/platformio-pkg-ldscripts/tree/esp8266_stage) :
+
+    [env:specific_ld_script]
+    build_flags = -Wl,-Tname_of_script.ld
