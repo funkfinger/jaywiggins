@@ -3,3 +3,4 @@ _site
 .sass-cache
 .flickrExclusion
 npm-debug.log
+.DS_Store
