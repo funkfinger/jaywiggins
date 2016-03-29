@@ -5,8 +5,6 @@ comments: true
 date: 2016-02-01 11:15:30
 ---
 
-#Ubiquiti AP Setup Debugging
-
 While trying out a Ubiquiti wifi solution, I ran into one AP not getting installed correctly. It was showing as either `disconnected` or `pending authorization` - the latter I think means that it was trying to connect to a wifi netowork rather than the ethernet network it was plugged into.
 
 Through various Google searches, I found that might mean that the controller and the AP were running different versions. I tried a few times upgrading via the web interface to no avail. Finally I got the upgrade bin file by getting it from the controller: 
