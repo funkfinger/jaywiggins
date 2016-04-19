@@ -13,7 +13,7 @@ categories: [attiny85,i2c,lcd]
 Here's some ATtiny I2C inspiration I found hanging around...
 
 * [https://platis.solutions/blog/2015/03/22/diy-interactive-name-tag/](https://platis.solutions/blog/2015/03/22/diy-interactive-name-tag/)
-* [https://github.com/platisd/ATtiny85-LCD-library](ATtiny85 I2C LCD Library)
+* [https://github.com/platisd/ATtiny85-LCD-library](https://github.com/platisd/ATtiny85-LCD-library)
 * [http://mythopoeic.org/adafruit-trinket-i2c/](http://mythopoeic.org/adafruit-trinket-i2c/)
 * [http://www.eevblog.com/forum/microcontrollers/good-usi-i2c-master-slave-attiny85-library-(optionally-master-arbitration-)/](http://www.eevblog.com/forum/microcontrollers/good-usi-i2c-master-slave-attiny85-library-(optionally-master-arbitration-)/)
 * [https://github.com/adafruit/TinyWireM](https://github.com/adafruit/TinyWireM)
