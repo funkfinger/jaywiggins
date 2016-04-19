@@ -8,7 +8,7 @@ categories: [attiny85,i2c,lcd]
 
 [This is hacked to all get out](https://github.com/funkfinger/electronic-tests/tree/master/test_no_arduino_attiny85_i2c_lcd), but using some sometimes modded Arduino libraries as a start and info found all over the net, I finally managed to get my ATTiny85 talking I2C to a [cheap I2C LCD](http://www.ebay.com/sch/i.html?_odkw=i2c+lcd+2x16&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.Xi2c+lcd+2x16+1602.TRS0&_nkw=i2c+lcd+2x16+1602&_sacat=0). Why no Arduino? Because I want my own timer interrupts and the ATTiny Arduino core uses the timer(s?) I want to use for `millis()` stuff...
 
-[attiny85 i2c lcd](http://media.jaywiggins.com.s3.amazonaws.com/images/attiny85%20i2c%20lcd.jpg)
+![attiny85 i2c lcd](http://media.jaywiggins.com.s3.amazonaws.com/images/attiny85%20i2c%20lcd.jpg)
 
 Here's some ATTiny I2C inspiration I found hanging around...
 
