@@ -5,3 +5,21 @@ This is my personal site to keep track of stuff I've run into. It's not very use
 This site is built with static site generator [Jekyll](http://jekyllrb.com) and started with [Poole](http://getpoole.com) - but may have deviated from that a bunch now...
 
 The site uses a <code>Rakefile</code> to manage <code>jekyll</code> tasks. It also relies on services to deal with data needs- for instance [Disqus](http://disqus.com) for comments.
+
+### Commands (found in RakeFile):
+
+Build the site:
+
+    rake build
+
+Deploy the site:
+
+    rake deploy
+    
+Serve the site locally:
+
+    rake server
+    
+Create a new post (follow instructions):
+
+    rake post
