@@ -14,4 +14,4 @@ I added a combination of female and male headers to the Dragon and a ziff socket
 
 ![AVR Dragon and adapter with headers](http://media.jaywiggins.com.s3.amazonaws.com/images/dragon-and-adapter-with-headers.jpg)
 
-See Fig 6-5 in the [AVR Dragon User Guide](http://www.atmel.com/Images/Atmel-42723-AVR-Dragon_UserGuide.pdf) for how this is hooked up.
+See Fig 6-5 in the [AVR Dragon User Guide](http://www.atmel.com/Images/Atmel-42723-AVR-Dragon_UserGuide.pdf) for how this is hooked up. Feel free to order this board fron [OSH Park](https://oshpark.com/shared_projects/dpRLKfmm)
