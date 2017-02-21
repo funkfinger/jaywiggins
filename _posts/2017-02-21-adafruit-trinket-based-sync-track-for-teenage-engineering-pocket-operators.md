@@ -5,8 +5,8 @@ comments: true
 date: 2017-02-21 16:28:45
 categories: [trinket,teenage engineering,sync,tap,bpm]
 ---
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PH5dn6jR41Q" frameborder="0" allowfullscreen></iframe>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PH5dn6jR41Q" frameborder="0" allowfullscreen></iframe><br/>
 
 An Adafruit Trinket-based button that outputs a Teenage Engineering Pocket Operator sync track. I made this Trinket version after I made a straight-up ATtiny85 / GCC version because the Trinket board is probably easier for most folks to get started with.
 
