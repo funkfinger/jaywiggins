@@ -8,9 +8,9 @@ categories: [trinket,teenage engineering,sync,tap,bpm]
 <br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PH5dn6jR41Q" frameborder="0" allowfullscreen></iframe><br/>
 
-An Adafruit Trinket-based button that outputs a Teenage Engineering Pocket Operator sync track. I made this Trinket version after I made a straight-up ATtiny85 / GCC version because the Trinket board is probably easier for most folks to get started with.
+An [Adafruit Trinket](https://www.adafruit.com/products/1501)-based button that outputs a [Teenage Engineering Pocket Operator](https://teenageengineering.com/products/po) sync track. I made this Trinket version after I made a [straight-up ATtiny85 / GCC version](http://jaywiggins.com/pocket%20operator/teenage%20engineering/bpm/sync/2016/04/25/teenage-engineering-pocket-operator-tap-sync/) because the Trinket board is probably easier for most folks to get started with.
 
-I personally like using [Platformio](http://platformio.org/) for my AVR (Arduino) builds - but I think you could (with possibly a little file re-arrangement) build this inside the Arduino IDE. Let me know...
+I personally like using [Platformio](http://platformio.org/) for my AVR (Arduino) builds - but I think you could - with a little file re-arrangement - build this inside the Arduino IDE. Let me know...
 
 ### BOM - required...
 
