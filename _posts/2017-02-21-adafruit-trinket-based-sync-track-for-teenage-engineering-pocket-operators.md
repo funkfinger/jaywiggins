@@ -51,9 +51,10 @@ The OLED display has 4 connections:
 The LED can be connected - 470Ω resistor -> Anode of LED -> Cathode of LED -> ground.
 
 
-### Software
+### [Software](https://github.com/funkfinger/trinket-tap-bpm-for-pocket-operator)
 
-I like [Platformio](http://platformio.org/) to manage my AVR (and other) projects. I prefer a command line build, but to each their own. Platformio is trying to address the mess that is multiple build platforms and library management. It's not perfect, but works for me. If you want to stick with the Arduino IDE, I think you can just grab all of the files in the `lib/ssd1306xled` folder and move them into the `src` folder and build it fine.
+Here is the [Software](https://github.com/funkfinger/trinket-tap-bpm-for-pocket-operator)
+. I like [Platformio](http://platformio.org/) to manage my AVR (and other) projects. I prefer a command line build, but to each their own. Platformio is trying to address the mess that is multiple build platforms and library management. It's not perfect, but works for me. If you want to stick with the Arduino IDE, I think you can just grab all of the files in the `lib/ssd1306xled` folder and move them into the `src` folder and build it fine.
 
 If you do use Platformio, here are the build commands...
 
